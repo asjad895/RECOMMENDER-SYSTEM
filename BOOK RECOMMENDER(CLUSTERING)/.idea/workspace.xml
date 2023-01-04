@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb779b23-58a0-4eda-b097-4c6a0cf1797c" name="Changes" comment="" />
+    <list default="true" id="bb779b23-58a0-4eda-b097-4c6a0cf1797c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODEL DEPL/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/MODEL DEPL/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +27,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ASUS/RECOMMENDER_SYSTEM/RECOMMENDER-SYSTEM/BOOK RECOMMENDER(CLUSTERING)"
+    "last_opened_file_path": "C:/Users/ASUS/RECOMMENDER_SYSTEM/RECOMMENDER-SYSTEM/BOOK RECOMMENDER(CLUSTERING)/MODEL DEPL"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\RECOMMENDER_SYSTEM\RECOMMENDER-SYSTEM\BOOK RECOMMENDER(CLUSTERING)\MODEL DEPL" />
       <recent name="C:\Users\ASUS\RECOMMENDER_SYSTEM\RECOMMENDER-SYSTEM\BOOK RECOMMENDER(CLUSTERING)\MODEL DEPLOYMENT" />
     </key>
   </component>
