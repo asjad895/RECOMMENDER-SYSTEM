@@ -1,0 +1,14 @@
+Index: MODEL DEPLOYMENT/app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MODEL DEPLOYMENT/app.py b/MODEL DEPLOYMENT/app.py
+new file mode 100644
+--- /dev/null	(date 1672825255559)
++++ b/MODEL DEPLOYMENT/app.py	(date 1672825255559)
+@@ -0,0 +1,4 @@
++import numpy as np
++import streamlit
++import pandas as pd
++import pickle
