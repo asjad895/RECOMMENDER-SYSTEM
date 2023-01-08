@@ -1,6 +1,5 @@
 streamlit
 scikit_learn==1.2.0
 pandas==1.5.2
-pickle==
 altair
-streamlit
+numpy
