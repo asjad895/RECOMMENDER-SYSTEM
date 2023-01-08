@@ -21,7 +21,7 @@ book_pivot=pickle.load(open('book_pivot.pkl', 'rb'))
 model=pickle.load(open('nn_model.pkl', 'rb'))
 title=pickle.load(open('title.pkl', 'rb'))
 
-st.title('MOVIE RECOMMENDER SYSTEM')
+st.title('BOOKS RECOMMENDER SYSTEM')
 
 tab1, tab2 = st.tabs(["**WEB APP FOR BOOK RECOMMENDATION**", "**ABOUT**"])
 def random_emoji():
@@ -44,7 +44,7 @@ def recommend(book):
 
 
 with tab1:
-    st.markdown("This web app is recommendation of book where u can gives movie name and enjoy your favourite choice!")
+    st.markdown("This web app is recommendation of book where u can gives book name and enjoy your favourite choice!")
     st.header("Select Book Name")
     selected_book=st.selectbox('Choose your book', title)
     # if st.button(f"RECOMMEND {st.session_state.emoji}", on_click=random_emoji):
