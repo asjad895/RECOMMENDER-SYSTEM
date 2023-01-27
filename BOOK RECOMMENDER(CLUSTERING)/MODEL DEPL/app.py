@@ -5,6 +5,49 @@ import numpy as np
 import random
 import base64
 st.set_page_config(page_title="BOOK RECOMMENDER", page_icon="random", layout="wide", initial_sidebar_state="expanded")
+# navbar = st.container()
+# navbar.markdown("""
+#     <style>
+#         .navbar {
+#             background-color: #f8f9fa;
+#             padding: 10px;
+#             text-align: center;
+#         }
+#         .navbar a {
+#             margin: 0 20px;
+#             text-decoration: none;
+#             color: #000;
+#         }
+#     </style>
+# """, unsafe_allow_html=True)
+# navbar.markdown("<div class='navbar'>")
+# navbar.markdown("<a href='#'>Home</a>")
+# navbar.markdown("<a href='#'>About</a>")
+# navbar.markdown("<a href='#'>Contact</a>")
+# navbar.markdown("</div>")
+st.markdown(
+    """
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown("""<style>
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+</style>)""")
 
 def add_bg_from_local(image_file):
     path=image_file
