@@ -28,8 +28,6 @@ ___
 
 
 
-https://user-images.githubusercontent.com/109430048/220199551-566aae0a-8f4a-406a-9f29-72b7c4bd82b7.mp4
-
 
 
 https://user-images.githubusercontent.com/109430048/220199859-66d1e889-38cc-4534-8938-8e03764ac99b.mp4
