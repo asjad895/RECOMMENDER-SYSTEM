@@ -15,8 +15,7 @@ def recommend(book):
     for j in range((len(suggestion))):
         rec_book.append(book_pivot.index[suggestion[j]])
     return rec_book
-
-'''
+ '''
 ___
 The user interface is created using the "streamlit" library. The app has two tabs: "WEB APP FOR BOOK RECOMMENDATION" and "ABOUT". The first tab allows the user to select a book and receive recommendations. The second tab provides a brief explanation of the app and a link to the developer's Github repository.
 
