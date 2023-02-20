@@ -2,7 +2,7 @@
 ___
 #  Book Recommender System Using KNN Clustering
 ___
--This code is a web application for a book recommender system that uses the K-Nearest Neighbors algorithm for clustering. The user can select a book from a dropdown menu, and upon clicking the "RECOMMEND" button, the system will recommend five books that are similar to the selected book.
+- This code is a web application for a book recommender system that uses the K-Nearest Neighbors algorithm for clustering. The user can select a book from a dropdown menu, and upon clicking the "RECOMMEND" button, the system will recommend five books that are similar to the selected book.
 
 -The system loads the required data from three pickle files: "book_pivot.pkl", "nn_model.pkl", and "title.pkl". "book_pivot.pkl" contains a pivot table of the book ratings data, "nn_model.pkl" contains the trained KNN model, and "title.pkl" contains a list of book titles. These pickle files are loaded using the "pickle" module.
 ___
