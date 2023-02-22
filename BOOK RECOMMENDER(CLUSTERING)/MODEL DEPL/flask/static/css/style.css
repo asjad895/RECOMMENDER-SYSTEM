@@ -1,0 +1,101 @@
+/* style.css */
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #333;
+  margin-top: 40px;
+}
+
+body {
+  background-color: skyblue;
+  color: #000080;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px;
+  padding: 2px;
+}
+
+.title-box {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 10px;
+  color: #333;
+}
+
+.title-box:hover {
+  background-color: burlywood;
+  color: #333;
+}
+/*navbar content*/
+
+.navbar {
+    height: 80px;
+    padding: 25px;
+    background-color: darkgray !important;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+    color: #333;
+    text-align:center;
+}
+
+.navbar-brand {
+    text-align:center;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid skyblue;
+    display: inline-block;
+    align-items: center;
+    display:block;
+    margin: auto;
+    color: darkviolet;
+}
+.nav-item{
+    opacity: 1;
+    transition: opacity 0.9s ease
+}
+.nav-item:hover {
+  background-color: skyblue;
+}
+
+.navbar-nav .nav-link {
+  color: darkviolet; /* set the color to white */
+}
+
+/*recommendation*/
+
+select {
+	padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+select:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.btn-secondary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-secondary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+
