@@ -7,13 +7,13 @@ ___
 - The system loads the required data from three pickle files: "book_pivot.pkl", "nn_model.pkl", and "title.pkl". "book_pivot.pkl" contains a pivot table of the book ratings data, "nn_model.pkl" contains the trained KNN model, and "title.pkl" contains a list of book titles. These pickle files are loaded using the "pickle" module.
 ___
 - The "recommend" function takes in the selected book as input, and returns five recommended books based on the KNN algorithm. The function first identifies the index of the selected book in the pivot table, and then calculates the distances and suggestions using the KNN model. The recommended books are returned as a list.
-def recommend(book):
+'''def recommend(book):
     ind=np.where(book_pivot.index==book)[0][0]
     distances, suggestion=model.kneighbors(book_pivot.iloc[ind, :].values.reshape(1, -1), n_neighbors=6)
     rec_book=[]
     for j in range((len(suggestion))):
         rec_book.append(book_pivot.index[suggestion[j]])
-    return rec_book
+    return rec_book'''
 
 ___
 - The user interface is created using the "streamlit" library. The app has two tabs: "WEB APP FOR BOOK RECOMMENDATION" and "ABOUT". The first tab allows the user to select a book and receive recommendations. The second tab provides a brief explanation of the app and a link to the developer's Github repository.
